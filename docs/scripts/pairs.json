@@ -1,0 +1,12 @@
+[["#ece8e1","#121110",7,"body text on bg",90],
+ ["#ece8e1","#1c1a18",7,"body text on surface",90],
+ ["#ece8e1","#050505",7,"text on product stage",90],
+ ["#bdb6ac","#121110",4.5,"muted on bg",60],
+ ["#bdb6ac","#1c1a18",4.5,"muted on surface",60],
+ ["#f0a830","#121110",4.5,"amber text/link on bg",60],
+ ["#f0a830","#1c1a18",4.5,"amber on surface",60],
+ ["#121110","#f0a830",4.5,"button label on amber",60],
+ ["#f0a830","#121110",3,"focus ring on bg"],
+ ["#f0a830","#050505",3,"focus ring on stage"],
+ ["#6b655e","#121110",3,"control border on bg"],
+ ["#120f0c","#d4a67a",4.5,"caption on sand frame",60]]

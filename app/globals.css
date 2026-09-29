@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Palette derived from the assets — see docs/asset-inventory.md. Contrast verified in docs/scripts/pairs.json. */
+@theme {
+  --color-bg: #121110;
+  --color-surface: #1c1a18;
+  --color-stage: #050505;
+  --color-line: #2a2724;
+  --color-line-strong: #6b655e;
+  --color-fg: #ece8e1;
+  --color-muted: #bdb6ac;
+  --color-amber: #f0a830;
+
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-amber);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-bg);
+}
